@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Student Registration System</title>
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Student Registration System</h1>
+		</header>
+
+		<main>
+			<section class="reg-section">
+				<form
+					class="reg-form"
+					id="regForm">
+					<div class="reg-input">
+						<label for="studentName">Student Name:</label>
+						<input
+							type="text"
+							placeholder="Enter student name.."
+							id="studentName" />
+					</div>
+
+					<div class="reg-input">
+						<label for="studentId">Student Id:</label>
+						<input
+							type="text"
+							placeholder="Enter student Id.."
+							id="studentId" />
+					</div>
+
+					<div class="reg-input">
+						<label for="studentClass">Student Class:</label>
+						<input
+							type="text"
+							placeholder="Enter student class.."
+							id="studentClass" />
+					</div>
+
+					<div class="reg-input">
+						<label for="studentEmail">Student Email:</label>
+						<input
+							type="email"
+							placeholder="Enter student email.."
+							id="studentEmail" />
+					</div>
+
+					<div class="reg-input">
+						<label for="studentContact">Student Contact No.:</label>
+						<input
+							type="text"
+							placeholder="Enter student contact No.."
+							id="studentContact" />
+					</div>
+					<input
+						class="form-btn"
+						type="submit"
+						value="Register" />
+				</form>
+			</section>
+
+			<section class="studentInfo-section">
+				<h2>Registered Student Information</h2>
+				<div
+					id="studentInfo"
+					class="card-container"></div>
+			</section>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
